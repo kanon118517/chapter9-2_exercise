@@ -20,13 +20,16 @@ main{
 .box1{
   width: 300px;
   background-color: #EEEEEE;
+  position: relative;
 }
 
 .step{
-  display: inline-block;
   width: 50px;
   height: 30px;
   background-color: #FF9A4B;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .step p{
@@ -34,11 +37,61 @@ main{
 }
 
 .box1-visual{
-  width: 95;
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.box2{
+  width: 300px;
+  background-color: #EEEEEE;
+  position: relative;
+  margin-left: 30px;
+}
+
+.box2-visual{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.box3{
+  width: 300px;
+  background-color: #EEEEEE;
+  position: relative;
+  margin-left: 30px;
+}
+
+.box3-visual{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.title{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.text{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 footer{
